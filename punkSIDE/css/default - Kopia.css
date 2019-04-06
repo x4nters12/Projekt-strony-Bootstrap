@@ -1,0 +1,150 @@
+body {
+    font-family: 'Audiowide', cursive;
+    color: white;
+    background: url("../img/background.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: black;
+    background-attachment: fixed;
+}
+footer {
+    margin-top: 20px;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    text-shadow: white 0 0 12px;
+}
+footer h2 {
+    font-size: 16px;
+}
+a {
+    display: inline-block;
+}
+.clearboth {
+    clear: both;
+}
+
+
+
+
+
+
+.navbar {
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    background-image: url("../img/navbar_background.png");
+    box-shadow: 0px 0px 25px 2px black;
+}
+.navbar a {
+    transition: .2s ease-out;
+    background-color: #232930;
+    box-shadow: inset  0 -10px 60px 0px black;
+    text-shadow: white 0 0 4px;
+    font-size: 30px;
+    padding: 0 80px 0 50px;
+}
+.navbar a:hover {
+    transition: .2s ease-in;
+    background-color: red;
+}
+
+
+
+
+
+
+.tile1x05 {
+    transition: .2s ease;
+    float: left;
+    margin: 5px;
+}
+
+.tile1x1 {
+    transition: .2s ease;
+    float: left;
+    margin: 5px;
+}
+
+.tile1x2 {
+    transition: .2s ease;
+    margin: 5px;
+}
+
+.tile2x2 {
+    width: 435px;
+    height: 435px;
+    background-color: black;
+    margin: 5px;
+}
+
+.tileblur a {
+    transition: .5s ease;
+    box-shadow: 0 0 10px 0 #333;
+}
+.tileblur a:hover {
+    transition: .5s ease;
+    box-shadow: inset  0 0 60px 10px black;
+    transform: scale(1.1);
+}
+.tileblur a:hover img {
+    transition: .5s ease;
+    filter: blur(10px);
+}
+.tileblur a h2 {
+    position: absolute;
+    visibility: hidden;
+    color: white;
+}
+.tileblur a:hover h2 {
+    transition: .25s ease;
+    transform: scale(1.1);
+    transform-origin: center;
+    text-shadow: white 0 0 12px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    vertical-align: middle;
+    visibility: visible;
+}
+
+
+
+
+
+
+
+.slider div img {
+    transition: 1s ease;
+    box-shadow: inset  0 0 60px 10px black;
+    filter: blur(16px);
+}
+
+.slider div:hover img {
+    transition: 1s ease;
+    transform: scale(1.2);
+    box-shadow: inset  0 0 60px 10px black;
+    filter: blur(1px) brightness(30%);
+}
+
+.slider div h2 {
+    transition: .5s ease;
+    top: 35%;
+    position: absolute;
+    color: white;
+    text-shadow: black 0 0 12px;
+    font-size: 36px;
+    text-align: center;
+    padding: 20px;
+}
+
+.slider div:hover h2 {
+    transition: .5s ease;
+    transform: scale(1.15);
+    text-shadow: white 0 0 12px;
+}

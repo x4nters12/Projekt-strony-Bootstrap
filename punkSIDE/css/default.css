@@ -1,0 +1,246 @@
+body {
+    font-family: 'Audiowide', cursive;
+    color: white;
+    background: url("../img/background.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: black;
+    background-attachment: fixed;
+}
+section {
+    margin-top: 46px;
+}
+footer {
+    margin-top: 10px;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    text-shadow: white 0 0 12px;
+}
+footer h2 {
+    font-size: 16px;
+}
+a {
+    display: inline-block;
+}
+.clearboth {
+    clear: both;
+}
+
+
+
+
+
+
+
+
+
+.navbar {
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    box-shadow: 0px 0px 25px 2px black;
+}
+.navbar a {
+    transition: .25s ease-out;
+    background-color: #232930;
+    box-shadow: inset  0 -10px 60px 0px black;
+    text-shadow: white 0 0 4px;
+    font-size: 24px;
+    padding: 0 50px 0 50px;
+}
+.navbar a:hover {
+    transition: .25s ease-in;
+    background-color: red;
+}
+.navbar div ul li a {
+    font-size: 18px;
+}
+.navbar div ul li div {
+    background-color: black;
+}
+.navbar div ul li div a {
+    font-size: 16px;
+    color: white;
+}
+.navbar div ul li div a:hover {
+    color: white;
+    text-shadow: white 0 0 4px;
+}
+
+
+
+
+
+
+
+
+
+.tile1x05 {
+    transition: .2s ease;
+    float: left;
+    margin: 5px;
+}
+
+.tile1x1 {
+    transition: .2s ease;
+    float: left;
+    margin: 5px;
+}
+
+.tile1x2 {
+    transition: .2s ease;
+    margin: 5px;
+}
+
+.tile2x2 {
+    width: 435px;
+    height: 435px;
+    background-color: black;
+    margin: 5px;
+}
+
+.tileblur a {
+    transition: .5s ease;
+    
+}
+.tileblur a:hover {
+    transition: .6s ease;
+    box-shadow: inset  0 0 60px 10px black;
+    transform: scale(1.1);
+}
+.tileblur a:hover img {
+    transition: .6s ease;
+    filter: blur(10px);
+}
+.tileblur a h2 {
+    transition: .25s ease;
+    position: absolute;
+    filter: blur(20px);
+    top: 50%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    visibility: hidden;
+    color: white;
+    font-size: 0;
+}
+.tileblur a:hover h2 {
+    transition: .25s ease;
+    transform: scale(1.1);
+    filter: blur(0);
+    transform-origin: center;
+    text-shadow: white 0 0 12px;
+    font-size: 24px;
+    top: 45%;
+    text-align: center;
+    vertical-align: middle;
+    visibility: visible;
+}
+.tileshadow {
+    box-shadow: 0 0 20px 0 #111;
+}
+
+.tilelinkshadow a {
+    box-shadow: 0 0 10px 0 #111;
+}
+
+
+
+
+
+
+
+
+
+.slider div img {
+    transition: 1s ease;
+    box-shadow: inset  0 0 60px 10px black;
+    filter: blur(16px);
+}
+
+.slider div:hover img {
+    transition: 1s ease;
+    transform: scale(1.2);
+    box-shadow: inset  0 0 60px 10px black;
+    filter: blur(1px) brightness(30%);
+}
+
+.slider div h2 {
+    transition: .5s ease;
+    top: 35%;
+    position: absolute;
+    color: white;
+    text-shadow: black 0 0 12px;
+    font-size: 36px;
+    text-align: center;
+    padding: 20px;
+}
+
+.slider div:hover h2 {
+    transition: .5s ease;
+    transform: scale(1.15);
+    text-shadow: white 0 0 12px;
+}
+
+
+
+
+
+
+
+
+
+
+.infotile-name {
+    font-size: 48px;
+    text-shadow: white 0 0 12px;
+    margin-top:10px;
+    margin-bottom: 25px;
+}
+.infotile-name-small {
+    font-size: 32px;
+    text-shadow: white 0 0 12px;
+    margin-top:10px;
+    margin-bottom: 25px;
+}
+
+
+.infotile-info div {
+    width: 435px;
+    height: 435px;
+    margin: 5px;
+    
+}
+.infotile-info-blur {
+    background-color: rgba(255, 255, 255, .4);
+    filter: blur(30px);
+    overflow: hidden;
+}
+.infotile-info h2 {
+    position: absolute;
+    top: 25%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-shadow: black 0 0 12px;
+    padding-left: 45px;
+    padding-right: 14px;
+    font-size: 20px;
+    line-height: 29px;
+}
+.infotile-image {
+    width: 100%;
+    margin-bottom: 19px;
+    overflow: hidden;
+}
+.infotile-description {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    text-shadow: white 0 0 12px;
+}
